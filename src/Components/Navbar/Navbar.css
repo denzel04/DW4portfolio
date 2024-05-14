@@ -1,0 +1,37 @@
+.Navbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:20px 170px;
+}
+.nav-menu{
+    font-family: Helvetica;
+    display: flex;
+    align-items:center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+   
+
+    
+}
+
+.nav-menu:hover{
+    transform: scale(1.09);
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+.nav-connect{
+
+    font-family: Helvetica;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #22199e 0.36%, #840e72 102.063%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.09);
+}
